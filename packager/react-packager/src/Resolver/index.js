@@ -99,6 +99,7 @@ class Resolver {
       providesModuleNodeModules: [
         'react-native',
         'react-native-windows',
+        'react-native-canvas',
         // Parse requires AsyncStorage. They will
         // change that to require('react-native') which
         // should work after this release and we can
